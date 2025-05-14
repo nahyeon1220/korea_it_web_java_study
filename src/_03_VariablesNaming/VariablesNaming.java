@@ -22,6 +22,5 @@ public class VariablesNaming {
         //상수: 절대 변하지 않는 데이터 → 상수명은 다 대문자로 표기
         //상수를 명시할 때는 무조건 자료형 앞에 final을 적어줘야함
         final String COUNTRY_CODE = "KR";
-
     }
 }
