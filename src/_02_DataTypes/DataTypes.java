@@ -22,7 +22,7 @@ public class DataTypes {
         System.out.println("long은" + l);
 
         //실수 - float, double
-        //float를 사용할 때는 값 뒤에 소문자 f를 적어줘야 변수의 자료형이 float임을 인식
+        //float를 사용할 때는 값 뒤에 f를 적어줘야 변수의 자료형이 float임을 인식 (대소문자 상관 없음)
         //실수에서는 부동 소수점 오류가 일어날 수도 있음! 특히 전공자 면접에서는 중요한 질문일 수 있으니 공부해두기.
         float f = 3.14f;
         double d = 3.14123456123456;
