@@ -5,6 +5,7 @@ public class Dog {
 
     //Dog 라는 클래스는 name과 age 라는 속성을 가져야 함.
     //클래스의 필드 -> 속성
+    //필드 === 속성 === 멤버변수
     String name;
     int age;
 

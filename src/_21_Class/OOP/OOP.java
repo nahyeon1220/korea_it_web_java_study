@@ -1,5 +1,7 @@
 package _21_Class.OOP;
 
+import _21_Class.Person.Person;
+
 public class OOP {
     public static void main(String[] args) {
         //OOP => Object Oriented Programing
@@ -15,15 +17,15 @@ public class OOP {
         //그냥 시동이 걸리고 엔진이 돌아간다는 것을 확인시켜줌
 
         //2. 캡슐화: 정보 은닉
+        //데이터(변수)를 보호하고, 접근을 제한하여 안정성을 높임
 
         //3. 상속
         //4. 다형성
 
-        //접근 제어자
-        //public: 어디서든 접근 가능, 다른 클래스에서 접근 가능
-        //default: 같은 패키지 안에서만 접근 가능 (명시를 따로 하지 않으면 설정 됨)
-        //protected: 같은 패키지 또는 자식 클래스에서만 접근 가능
-        //private: 해당 클래스 내부에서만 접근 가능 -> 정보 은닉을 위해 사용
+        Person person = new Person();
+        System.out.println(person.name);
+//        System.out.println(person.age);
+//        System.out.println(person.address);
 
     }
 }
