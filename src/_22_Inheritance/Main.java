@@ -19,8 +19,27 @@ public class Main {
         Animal animal1 = new Animal();
         animal1.setAnimalName("고양이");
         animal1.setAnimalAge(2);
+        animal1.move();
 
         Tiger tiger1 = new Tiger();
+        tiger1.setAnimalName("호랭이");
+        System.out.println(tiger1.getAnimalName());
+        tiger1.setAnimalAge(3);
+        System.out.println(tiger1.getAnimalAge());
+        tiger1.move();
+        tiger1.hunt();
+        tiger1.setStriped(true);
+
+        Tiger tiger2 = new Tiger(3, "백호", false); //객체의 생성과 동시에 속성값을 대입
+
+        System.out.println("여기부터는 Human");
+        System.out.println();
+
+        Human human1 = new Human("오나현", 23);
+        System.out.println(human1.getAnimalName());
+        System.out.println(human1.getAnimalAge());
+        human1.move();
+        human1.read("어린왕자");
 
     }
 }

@@ -22,11 +22,6 @@ public class Animal {
         this.animalAge = animalAge;
     }
 
-    public Animal(int animalAge, String animalName){
-        this.animalAge = animalAge;
-        this.animalName = animalName;
-    }
-
     public String getAnimalName() {
         return animalName;
     }
