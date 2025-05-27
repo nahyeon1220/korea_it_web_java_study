@@ -8,6 +8,6 @@ public class Human extends Animal{
     }
 
     public void eat() {
-        System.out.println("사람이 밥을 먹습니다.");
+        System.out.println("사람이 식사를 합니다.");
     }
 }
