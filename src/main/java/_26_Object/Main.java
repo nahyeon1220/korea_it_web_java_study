@@ -15,5 +15,6 @@ public class Main {
         System.out.println(teacher1.hashCode());
         System.out.println(teacher2.hashCode());
         System.out.println(teacher1.equals(teacher2)); //equals와 hashCode는 실과 바늘처럼 거의 한 세트
+
     }
 }
