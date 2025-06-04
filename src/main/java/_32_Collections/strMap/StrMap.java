@@ -79,11 +79,13 @@ public class StrMap {
         //정렬은 고려되지 않고 만듦 -> 때문에 순서를 미보장
         //그럼에도 정렬을 하고 싶다면?
         Collections.sort(entryList1, Map.Entry.comparingByValue());//값 기준 정렬
-        System.out.println("값 기준 정렬 : " + entryList1);
+        System.out.println("값 기준 정렬: " + entryList1);
         Collections.sort(entryList1, Map.Entry.comparingByKey());//키 기준 정렬
-        System.out.println("키 기준 정렬 : " + entryList1);
+        System.out.println("키 기준 정렬: " + entryList1);
         Collections.sort(entryList1, Map.Entry.comparingByKey(Comparator.reverseOrder()));//키 기준 역순 정렬
-        System.out.println("키 기준 역순 정렬 : " + entryList1);
+        System.out.println("키 기준 역순 정렬: " + entryList1);
+        Collections.sort(entryList1, Map.Entry.comparingByValue(Comparator.reverseOrder())); //값 기준 역순 정렬
+        System.out.println("값 기준 역순 정렬: " + entryList1);
 
         //Key Set 출력
         Set<String> keySet = strMap1.keySet();
