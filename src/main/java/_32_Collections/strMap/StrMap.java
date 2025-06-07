@@ -4,7 +4,7 @@ import java.util.*;
 
 public class StrMap {
     //Map - 키(Key) / 값(Value)의 쌍으로 이루어진 데이터들의 집합
-    //키는 중복 불가능 <-> value는 중복 가능, 순서 없음
+    //Key(키)는 중복 불가능 <-> value(값)은 중복 가능, 순서 없음
 
     public static void main(String[] args) {
         Map<String, String> strMap1 = new HashMap<>();
@@ -41,8 +41,8 @@ public class StrMap {
             System.out.println("키: " + entry.getKey() + " 값: " + entry.getValue());
         }
         //entrySet을 이용하게 되면 키값 전체 내용이 set 형태로 오는데 keySet처럼 한가지만 String으로 들어가는게 아님
-        //그래서 키값 형태를 받아줄 수 있는 Map.Entry에 넣어야 함
-        //Map.Entry는 Map에 들어가는 데이터의 형식인 키값 형태
+        //그래서 키,값 형태를 받아줄 수 있는 Map.Entry에 넣어야 함
+        //Map.Entry는 Map에 들어가는 데이터의 형식인 키, 값 형태
 
         //수정 또는 추가
         strMap1.put("onh20030111", "일나현");
